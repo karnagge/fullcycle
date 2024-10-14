@@ -88,7 +88,3 @@ Para garantir que a imagem Docker tenha menos de **2MB**, foram aplicadas as seg
 
 - **GitHub:** [@karnagge](https://github.com/karnagge)
 - **Docker Hub:** [karnagge](https://hub.docker.com/u/karnagge)
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
