@@ -14,6 +14,7 @@ services:
 
   nodeapp:
     build: ./nodeapp
+    entrypoint: dockerize -wait tcp://mysql:3306 -timeout 20s npm start
     depends_on:
       - mysql
     volumes:
