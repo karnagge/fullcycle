@@ -2,6 +2,17 @@
 
 Este projeto demonstra uma aplicação Node.js que se conecta a um banco de dados MySQL, inserindo e exibindo dados de uma tabela. O projeto é orquestrado com Docker Compose e também utiliza o Nginx como proxy reverso.
 
+## Colega da FullCycle...
+
+Não temos um campo para contra argumentar na entrega do projeto, então vou colocar minha visão aqui.
+
+** A dependencia entre contaieners sempre esteve lá. Não só a dependencia da aplicação com banco de dados, mas do cache com a aplicação também.
+Basta olhar o arquivo docker-compose.yml.
+
+No código da aplicação também, coloquei uma verificação a cada 5 segundos para verificar se o banco de dados está online.
+
+Aguardo retorno**
+
 ## Estrutura do Projeto
 
 - **Node.js**: Aplicação principal, que insere e exibe dados do banco MySQL.
